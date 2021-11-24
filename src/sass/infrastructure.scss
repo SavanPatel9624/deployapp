@@ -1,0 +1,101 @@
+.infrastructure_carousel {
+  .carousel:not(.carousel-slider) {
+    display: none;
+  }
+  .carousel-slider {
+    .slider {
+      .slide {
+        padding-top: 50px;
+        @media (max-width: 767px) {
+          padding-top: 20px;
+        }
+        .infrastructure_carousel_box {
+          .infra_car_desc_card {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 1px 1px 11px 1px #888;
+            .mechin_number {
+              h1 {
+                color: #f58220;
+                margin: 0;
+              }
+            }
+            @media (max-width: 767px) {
+              top: 0;
+              padding: 15px;
+              .mechin_desc {
+                h5 {
+                  font-size: 18px;
+                  margin-bottom: 0;
+                }
+              }
+            }
+            @media (max-width: 478px) {
+              padding: 10px;
+              border-radius: 8px;
+              right: 10px;
+              .mechin_desc {
+                h5 {
+                  font-size: 14px;
+                  margin-bottom: 0;
+                }
+              }
+            }
+            @media (max-width: 478px) {
+              right: 5px;
+            }
+          }
+        }
+      }
+    }
+    .control-arrow {
+      height: 40px;
+      width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      &.control-next {
+        left: 80px;
+        right: unset;
+      }
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+}
+.quality_control_block {
+  .quality_desc {
+    h2 {
+      color: #fff;
+    }
+    p {
+      font-size: 15px;
+      text-align: justify;
+      margin-top: 10px;
+      color: #888;
+      font-weight: 300;
+      line-height: 2;
+      margin-bottom: 0;
+    }
+  }
+  .worker_block {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-height: 400px;
+    img {
+      width: 100%;
+      max-height: 380px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 25px;
+    }
+  }
+}

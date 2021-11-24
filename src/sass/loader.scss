@@ -1,0 +1,19 @@
+.page_loader_block {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >div:first-child {
+      height: 200px;
+      width: 200px;
+    }
+}
+
+  

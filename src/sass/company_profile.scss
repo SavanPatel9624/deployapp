@@ -1,0 +1,115 @@
+.profile-desc {
+  h3 {
+    color: #fff;
+  }
+  .profile_desc {
+    margin-top: 20px;
+  }
+  p {
+    font-size: 14px;
+    text-align: justify;
+    color: #888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 0;
+    &:hover {
+      color: #999;
+    }
+  }
+}
+.spadding {
+  padding: 50px 0;
+  border-top: 1px solid #41464b;
+  @media (max-width: 478px) {
+    padding: 30px 0;
+  }
+}
+
+.mission_vision_block {
+  justify-content: center;
+  .card-box {
+    border: 2px solid #888;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+    &:hover {
+      border-color: #fff;
+      h3 {
+        color: #f58220;
+        border-color: #fff;
+      }
+      .card-desc {
+        color: #fff;
+      }
+    }
+    h3 {
+      color: #fff;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #888;
+      i {
+        margin-right: 15px;
+      }
+    }
+    .card-desc {
+      font-size: 16px;
+      text-align: justify;
+      margin-top: 10px;
+      color: #888;
+      font-weight: 300;
+      line-height: 2;
+      margin-bottom: 0;
+      p {
+        margin: 0;
+      }
+    }
+    @media (max-width: 767px) {
+      margin-top: 25px;
+    }
+    @media (max-width: 375px) {
+      padding: 15px;
+    }
+  }
+}
+.certificate_desc {
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+}
+
+.certificate_carousel {
+  .control-arrow {
+    top: 50% !important;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff !important;
+    border-radius: 12px;
+    &.control-prev {
+      left: 30px;
+      @media (max-width: 991px) {
+        left: 0;
+      }
+    }
+    &.control-next {
+      right: 30px;
+      @media (max-width: 991px) {
+        right: 0;
+      }
+    }
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  .carousel:not(.carousel-slider) {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .company_profile {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

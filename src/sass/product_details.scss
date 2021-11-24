@@ -1,0 +1,38 @@
+.product_details {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px 0 0 0;
+  position: relative;
+  .select_product {
+    border-radius: 0 12px 0 0;
+    background-color: #fff;
+    .production_info {
+      .production_info_block {
+        .pro_img {
+          img {
+            width: 100%;
+          }
+        }
+        .pro_desc {
+          .info_box {
+            border: 1px solid #000;
+            order: 1px solid #dedada;
+            display: flex;
+            padding: 10px 20px;
+            margin: 10px 0;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+.releted_pro {
+  h4 {
+    color: #fff;
+  }
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,33 @@
+.export_block {
+  .sub-title {
+    color: #f58220;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+  }
+  .desc {
+    color: #888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+    text-align: justify;
+  }
+  .export_contry {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #d3d3d3;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: rgb(240, 248, 255);
+    min-width: 10%;
+    text-align: center;
+  }
+}
+.react-tagsinput-input {
+width: 90px !important;
+}

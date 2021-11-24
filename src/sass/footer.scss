@@ -1,0 +1,144 @@
+a {
+  color: #888;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.main-footer.dark {
+  background: #000;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-footer {
+  padding: 100px 0 0;
+  @media (max-width: 768px) {
+    padding: 30px 0 0;
+  }
+  .logo-footer {
+    margin-bottom: 20px;
+    .logo {
+      display: block;
+      height: 80px;
+      text-align: center;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .abot {
+    p {
+      font-size: 13px;
+      text-align: justify;
+    }
+    .social-icon {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        font-size: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        margin-right: 5px;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
+        &:hover {
+          border-color: #f58220;
+          color: #f58220;
+        }
+      }
+    }
+  }
+  .fothead {
+    h6 {
+      color: #f58220;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 30px;
+    }
+  }
+  .usful-links {
+    ul {
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+      li {
+        font-size: 13px;
+        margin-bottom: 10px;
+        text-decoration: none;
+
+        i {
+          font-size: 10px;
+          color: #f58220;
+          margin-right: 5px;
+        }
+        a {
+          text-decoration: none;
+          color: #888;
+          transition: all 0.5s;
+          &:hover {
+            color: #f58220;
+          }
+        }
+      }
+    }
+  }
+  .write {
+    a {
+      font-size: 16px;
+    }
+  }
+  .fotcont {
+    .fothead {
+      h6 {
+        position: relative;
+        padding-bottom: 10px;
+        &:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          background: rgba(255, 255, 255, 0.1);
+          height: 1px;
+        }
+      }
+    }
+    p {
+      font-size: 13px;
+      color: #888;
+      a {
+        transition: all 0.5s;
+        &:hover {
+          color: #f58220;
+        }
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+    span {
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #888;
+      font-weight: bold;
+    }
+  }
+}
+
+.footer_modal {
+  .form-floating > label {
+    left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-box {
+    margin-top: 20px;
+  }
+}

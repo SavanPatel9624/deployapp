@@ -1,0 +1,145 @@
+section {
+  background: #000 !important;
+}
+.section-head {
+  position: relative;
+  margin: 0 auto 60px;
+  @media (max-width: 767px) {
+    margin: 0 auto 30px;
+  }
+  h6 {
+    color: #f58220;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin: 0;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+}
+
+.collection-box {
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+}
+.item {
+  .post-img {
+    &:hover {
+      img {
+        -webkit-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+      }
+    }
+    .img {
+      overflow: hidden;
+    }
+    img {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      min-height: 636px;
+      max-height: 636px;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .cont {
+    position: relative;
+    padding: 40px 30px;
+    width: 92%;
+    margin-left: 8%;
+    margin-top: -40px;
+    background: #fff;
+    h5 {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: #000;
+      text-transform: uppercase;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+    .more {
+      color: #f58220;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #f58220;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      text-decoration: none;
+      &:hover {
+        border-color: transparent;
+      }
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.corporate-clients_block {
+  padding-top: 10%;
+  .clients_img {
+    max-height: 151px;
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+.achievement_area {
+  justify-content: center;
+  padding-bottom: 5%;
+  .achievement_block {
+    padding: 10px;
+    .achievement_box {
+      border: 1px solid #eee;
+      padding: 25px;
+      height: 100%;
+      width: 100%;
+      border-radius: 12px;
+      @media (max-width: 991px) {
+        padding: 15px;
+      }
+      .achievement_year {
+        font-size: 45px;
+        margin-bottom: 10px;
+        color: transparent;
+        -webkit-text-stroke: 1px #f58220;
+        font-weight: 400;
+        @media (max-width: 991px) {
+          font-size: 32px;
+        }
+      }
+      .achievement_desc {
+        color: #888;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 0;
+        @media (max-width: 991px) {
+          font-size: 14px;
+          line-height: 28px;
+        }
+      }
+      &:hover {
+        border: 1px solid #fff;
+        .achievement_desc {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

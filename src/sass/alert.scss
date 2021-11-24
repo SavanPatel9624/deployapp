@@ -1,0 +1,75 @@
+.alert-box {
+  display: flex;
+  width: 240px;
+  height: auto;
+  background-color: #406ae8;
+  border-radius: 10px;
+  position: fixed;
+  top: 15%;
+  right: 20px;
+  padding: 15px 0;
+  z-index: 9;
+  div.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 10px;
+    > div {
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      margin: 3px;
+      background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.5) 0%);
+      animation: bounce 1.5s 0.5s linear infinite;
+    }
+
+    .yellow {
+      background-color: #feb60a;
+    }
+
+    .red {
+      background-color: #ff0062;
+      animation-delay: 0.1s;
+    }
+
+    .blue {
+      background-color: #00dbf9;
+      animation-delay: 0.2s;
+    }
+
+    .violet {
+      background-color: #da00f7;
+      animation-delay: 0.3s;
+    }
+  }
+  @keyframes bounce {
+    0%,
+    50%,
+    100% {
+      transform: scale(1);
+      filter: blur(0px);
+    }
+    25% {
+      transform: scale(0.6);
+      filter: blur(3px);
+    }
+    75% {
+      filter: blur(3px);
+      transform: scale(1.4);
+    }
+  }
+  .alert-message {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    p {
+      margin: 0;
+    }
+  }
+  .alert-message.ml-10 {
+    margin-left: 10px;
+  }
+}
+.alert-box.error-box {
+  background-color: #db37006b;
+}

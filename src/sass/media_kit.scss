@@ -1,0 +1,72 @@
+.post_item {
+  .item {
+    border: 2px solid #888;
+    padding: 20px;
+    border-radius: 12px;
+    .media_img_block {
+      height: 240px;
+      text-align: center;
+      img {
+        height: 100%;
+        max-width: 100%;
+      }
+    }
+    .item_content {
+      margin-top: 25px;
+      .title {
+        color: #fff;
+        margin-bottom: 15px;
+      }
+      .desc {
+        color: #888;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 2;
+        margin: 0;
+        font-weight: 300;
+        display: -webkit-box;
+        overflow: hidden;
+        word-break: break-word;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+      }
+    }
+    .post_more_read {
+      margin-top: 25px;
+      color: #fff;
+      position: relative;
+      padding-left: 40px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      &:before {
+        content: "";
+        width: 30px;
+        height: 1px;
+        background: #f58220;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      &:hover {
+        padding-left: 60px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        &:before {
+          width: 50px;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+}

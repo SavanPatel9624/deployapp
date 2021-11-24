@@ -1,0 +1,29 @@
+@import "./com_navigation.scss";
+@import "./company_profile.scss";
+@import "./footer.scss";
+@import "./home_about.scss";
+@import "./home_collections.scss";
+@import "./media_kit.scss";
+@import "./media_Kit_Details.scss";
+@import "./Menubar.scss";
+@import "./product_details.scss";
+@import "./production.scss";
+
+.m-r-5 {
+  margin-right: 5px;
+}
+.p-t-10 {
+  padding-top: 10px;
+}
+.data_update_btn {
+  width: 150px !important;
+  top: -30px !important;
+  &.icon_button {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
